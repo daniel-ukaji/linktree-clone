@@ -1,10 +1,11 @@
 import './App.css';
-import profile_pic from '../src/images/profile__img.png';
+// import profile_pic from '../src/images/profile__img.png';
 import slack from "../src/images/slack.png";
 import Icon from "../src/images/Icon.png";
 import Footer from './components/Footer';
 import shareIcon from "../src/images/Share-icon.png";
 import Content from "../src/images/Content.png";
+import Profile from "../src/images/profile.jpeg"
 
 function App() {
   return (
@@ -16,15 +17,16 @@ function App() {
         <div className='md:hidden'>
           <img src={Content} alt="share Content" className="ml-72 rounded-full border" />
         </div>
+          
+            <img src={Profile} className="rounded-full w-24 h-24 object-cover" id="profile__img" alt="profile Pic" />
         
-          <img src={profile_pic} id="profile__img" alt="profile Pic" />
         
-        <h1 className='font-bold'>Odogwu Senpai</h1>
+        <h1 className='font-bold' id='twitter'>Odogwu Senpai</h1>
       </div>
 
       <div className='flex justify-center flex-col items-center space-y-7'>
         
-          <a href='https://twitter.com/ukaji_tech' id='twitter' className='font-semibold bg-[#EAECF0] w-3/5 text-center pt-3 pb-3 hover:bg-[#D0D5DD] rounded-lg' rel="noreferrer" target="_blank" >Twitter Link</a>
+          <a href='https://twitter.com/ukaji_tech' className='font-semibold bg-[#EAECF0] w-3/5 text-center pt-3 pb-3 hover:bg-[#D0D5DD] rounded-lg' rel="noreferrer" target="_blank" >Twitter Link</a>
         
           <a href='https://training.zuri.team/' title='This is where you find books about design and code' id='btn__zuri' className='font-semibold bg-[#EAECF0] w-3/5 text-center pt-3 pb-3 hover:bg-[#D0D5DD] rounded-lg' rel="noreferrer" target="_blank">Zuri Team</a>
         
