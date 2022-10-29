@@ -11,10 +11,10 @@ function App() {
     <div className="mt-5">
       <div className='flex justify-center mb-10 flex-col items-center space-y-4'>
         <div className="hidden md:block">
-          <img src={shareIcon} alt="share Icon" className='pl-96' />
+          <img src={shareIcon} alt="share Icon" className='ml-96' />
         </div>
         <div className='md:hidden'>
-          <img src={Content} alt="share Content" className="ml-96 rounded-full border" />
+          <img src={Content} alt="share Content" className="ml-80 rounded-full border" />
         </div>
         
           <img src={profile_pic} id="profile__img" alt="profile Pic" />
