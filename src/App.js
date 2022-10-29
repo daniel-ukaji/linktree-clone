@@ -14,7 +14,7 @@ function App() {
           <img src={shareIcon} alt="share Icon" className='ml-96' />
         </div>
         <div className='md:hidden'>
-          <img src={Content} alt="share Content" className="ml-80 rounded-full border" />
+          <img src={Content} alt="share Content" className="ml-72 rounded-full border" />
         </div>
         
           <img src={profile_pic} id="profile__img" alt="profile Pic" />
