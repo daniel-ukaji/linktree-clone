@@ -106,8 +106,8 @@ function Contact() {
               onChange={handleChange} />
           </div>
           <p className='font-inter text-[#F83F23]'>{formErrors.message}</p>
-          <div className='space-x-2 mt-5'>
-            <input type="checkbox" className="border border-gray-400 outline-[#BCE2FF]" />
+          <div className='space-x-2 mt-5 flex items-center'>
+            <input type="checkbox" className="w-4 h-4 text-black-400 border border-gray-400 outline-[#BCE2FF]" />
             <span className='font-inter text-[#475467]'>You agree to providing your data to Daniel Ukaji who may contact you.</span>
           </div>
           <div className='mt-10'>
