@@ -108,7 +108,7 @@ function Contact() {
           <p className='font-inter text-[#F83F23]'>{formErrors.message}</p>
           <div className='space-x-2 mt-5'>
             <input type="checkbox" className="border border-gray-400 outline-[#BCE2FF]" />
-            <span className='font-inter text-[#475467]'>You agree to providing your data to {"{name}"} who may contact you.</span>
+            <span className='font-inter text-[#475467]'>You agree to providing your data to Daniel Ukaji who may contact you.</span>
           </div>
           <div className='mt-10'>
             <button className='font-inter w-full bg-[#1570EF] py-3 text-center text-white rounded-lg' id='btn__submit'>Send Message</button>
