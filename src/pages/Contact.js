@@ -22,6 +22,7 @@ function Contact() {
 
   const validate = (values) => {
     const errors = {}
+    //regex
     const regex= /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if(!values.fname){
       errors.fname = "First Name is Required!"
